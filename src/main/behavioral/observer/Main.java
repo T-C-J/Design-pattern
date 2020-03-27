@@ -1,7 +1,7 @@
 package behavioral.observer;
 
-import behavioral.observer.interfaces.ConcreteObserver;
-import behavioral.observer.interfaces.ConcreteSubject;
+import behavioral.observer.example.ConcreteObserver;
+import behavioral.observer.example.ConcreteSubject;
 
 public class Main {
 

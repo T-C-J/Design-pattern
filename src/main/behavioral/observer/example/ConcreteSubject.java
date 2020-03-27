@@ -1,13 +1,16 @@
-package behavioral.observer.interfaces;
+package behavioral.observer.example;
+
+import behavioral.observer.interfaces.Observer;
+import behavioral.observer.interfaces.Subject;
 
 import java.util.*;
 
-public class ConcreteSubject implements Subject{
+public class ConcreteSubject implements Subject {
 
 
-    List<Observer> observers = new ArrayList<>();
+    List<behavioral.observer.interfaces.Observer> observers = new ArrayList<>();
     @Override
-    public void attach(Observer observer) {
+    public void attach(behavioral.observer.interfaces.Observer observer) {
         observers.add(observer);
     }
     @Override

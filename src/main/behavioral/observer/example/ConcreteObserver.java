@@ -1,4 +1,6 @@
-package behavioral.observer.interfaces;
+package behavioral.observer.example;
+
+import behavioral.observer.interfaces.Observer;
 
 public class ConcreteObserver implements Observer {
     @Override
