@@ -3,11 +3,11 @@ package behavioral.templateMethod.interfaces;
 public interface InterfaceClass {
 
     void firstStep();
-    void secnodStep();
+    void secondStep();
     void thirdStep();
     default void templateMethod(){
         firstStep();
-        secnodStep();
+        secondStep();
         thirdStep();
     }
 }

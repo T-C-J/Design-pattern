@@ -8,7 +8,7 @@ import java.util.*;
 public class ConcreteSubject implements Subject {
 
 
-    List<behavioral.observer.interfaces.Observer> observers = new ArrayList<>();
+    List<Observer> observers = new ArrayList<>();
     @Override
     public void attach(behavioral.observer.interfaces.Observer observer) {
         observers.add(observer);

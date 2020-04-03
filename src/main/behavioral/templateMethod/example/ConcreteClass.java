@@ -11,7 +11,7 @@ public class ConcreteClass extends AbstractClass {
     }
 
     @Override
-    protected void secnodStep() {
+    protected void secondStep() {
         System.out.println("第二步");
     }
 
